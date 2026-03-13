@@ -1,0 +1,51 @@
+body {
+  padding-top: 56px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 2000;
+  padding: 0.75rem 1rem;
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  text-decoration: none;
+}
+
+a:focus,
+button:focus,
+.navbar-toggler:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #004494;
+  border-color: #004494;
+}
+
+.card-footer .btn {
+  width: 100%;
+}
+
+h1,
+h2 {
+  line-height: 1.3;
+}
